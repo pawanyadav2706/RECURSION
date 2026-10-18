@@ -14,14 +14,14 @@ class Solution {
         // work
         // chose vertical or horizontal
         // vertical
-        int vertical = tilingproblem(n - 1);
+        // int vertical = tilingproblem(n - 1);
 
-        // horizontal
-        int horizontal = tilingproblem(n - 2);
+        // // horizontal
+        // int horizontal = tilingproblem(n - 2);
 
-        int totalways = vertical + horizontal;
+        // int totalways = vertical + horizontal;
 
-        return totalways;
+        return tilingproblem(n - 1) + tilingproblem(n - 2);
 
     }
 }
