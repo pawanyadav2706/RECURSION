@@ -11,7 +11,7 @@ class Solution {
         if(n == 1 || n== 2){
             return n;
         }
-        // work yani kaam
+        // work means kaam
         // choise
         // single
         // int single = friendspairing(n - 1);
